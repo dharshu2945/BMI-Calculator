@@ -14,3 +14,7 @@ OUTPUT:
 
 <img width="1906" height="966" alt="Screenshot 2026-02-18 105349" src="https://github.com/user-attachments/assets/65cc03c9-db8b-424a-a1ee-dd33c6b74ac8" />
 
+<img width="1749" height="866" alt="image" src="https://github.com/user-attachments/assets/4c7d162f-6602-44dd-b7b0-4cdd40b4be28" />
+
+<img width="1363" height="881" alt="image" src="https://github.com/user-attachments/assets/1d6a829f-d662-4c3f-8e35-2b9c3d3438dc" />
+
