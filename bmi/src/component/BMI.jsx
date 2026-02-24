@@ -7,21 +7,17 @@ function BMI() {
   const [bmi, setBmi] = useState("");
   const [status, setStatus] = useState("");
 
-const calculateBMI = () => {
-  if (!height || !weight) return;
+  const calculateBMI = () => {
+    if (!height || !weight) return;
 
-  const h = Number(height) / 100;
-  const w = Number(weight);
+    const h = height / 100;
+    const result = (weight / (h * h)).toFixed(2);
+    setBmi(result);
 
-  const calculated = w / (h * h);
-
-  setBmi(calculated.toFixed(2));
-
-  if (calculated < 18.5) setStatus("under");
-  else if (calculated < 25) setStatus("normal");
-  else setStatus("over");
-};
-
+    if (result < 18.5) setStatus("under");
+    else if (result >= 18.5 && result < 25) setStatus("normal");
+    else setStatus("over");
+  };
 
   return (
     <div className="container">

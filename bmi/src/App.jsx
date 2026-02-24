@@ -1,12 +1,14 @@
-import React from 'react'
-import BMI from './component/BMI'
+import { Routes, Route } from "react-router-dom";
+import BMIForm from "./component/BMIForm";
+import BMIResult from "./component/BMIResult";
 
 function App() {
   return (
-    <>
-    <BMI></BMI>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<BMIForm />} />
+      <Route path="/result" element={<BMIResult />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
